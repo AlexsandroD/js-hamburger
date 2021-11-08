@@ -14,13 +14,24 @@
 
 // seconda versione non toccando come, come da consegna, il css 
 
-const aperto = document.getElementById('open');
-const close = document.getElementById('close');
+// const aperto = document.getElementById('open');
+// const close = document.getElementById('close');
 
-aperto.addEventListener('click', function(){
+// aperto.addEventListener('click', function(){
+//     document.querySelector('.hamburger-menu').style.display = "block";
+// });
+
+// closed.addEventListener('click', function(){
+//     document.querySelector('.hamburger-menu').style.display = "none";
+// });
+
+
+
+// in questo esempio ho utlizzato solo js senza modificare ne Html ne css 
+document.querySelector('i.fas.fa-bars').addEventListener('click', function(){
     document.querySelector('.hamburger-menu').style.display = "block";
-});
+})
 
-close.addEventListener('click', function(){
+document.querySelector('i.fas.fa-times').addEventListener('click', function(){
     document.querySelector('.hamburger-menu').style.display = "none";
-});
+})
