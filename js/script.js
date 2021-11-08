@@ -28,10 +28,22 @@
 
 
 // in questo esempio ho utlizzato solo js senza modificare ne Html ne css 
+// usando style inline 
 document.querySelector('i.fas.fa-bars').addEventListener('click', function(){
     document.querySelector('.hamburger-menu').style.display = "block";
 })
 
 document.querySelector('i.fas.fa-times').addEventListener('click', function(){
     document.querySelector('.hamburger-menu').style.display = "none";
+})
+
+// in questo esempio ho utlizzato solo js senza modificare ne Html ne css 
+// // usando classList
+
+document.querySelector('i.fas.fa-bars').addEventListener('click', function(){
+    document.querySelector('.hamburger-menu').classList.add('active')
+})
+
+document.querySelector('i.fas.fa-times').addEventListener('click', function(){
+    document.querySelector('.hamburger-menu').classList.remove('active')
 })
