@@ -84,9 +84,11 @@ header {
     font-size: 35px;
     text-decoration: none;
 }
-.display-block{
+
+/* per la versione classilist/name  */
+/* .display-block{
     display: block;
-}
+} */
 
 @media screen and (max-width: 1000px)
 {
